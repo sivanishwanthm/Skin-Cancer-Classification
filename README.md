@@ -1,1 +1,10 @@
 # Skin-Cancer-Classification
+
+Problem Statement/Objectives:
+Skin cancer is among the most common cancers globally, with millions of cases diagnosed each year. Early diagnosis is crucial for the people who are being affected by these diseases. Dermatology Experts are limited in many regions, and it is sometimes difficult to make accurate classification among various diseases. Our motivation stems from the rising incidence of skin cancer globally and the shortage of expert dermatologists in many regions. We aim to demonstrate that deep learning, especially CNNs, can assist in early and accurate classification of skin lesions. We strive to improve accuracy through data handling techniques and advanced model architecture.
+Background and AI type:
+Deep learning is a powerful subset of machine learning, using artificial neural networks to mimic the human brain's ability to learn. This project utilizes Supervised Learning, where models are trained on labeled data. CNNs are ideal for image classification due to their ability to automatically and adaptively learn spatial hierarchies.
+
+Dataset Description:
+The dataset used in this project is the HAM10000 ("Human Against Machine with 10,015images") dataset, which is a widely recognized benchmark dataset for skin lesion analysis and classification tasks. The size of each image is 600*450 pixels in PNG format and dataset size is 2GB approximately.
+Each image in the dataset is labelled with one of the 7 classes of lesion. Classes include a representative collection of all important diagnostic categories in the realm of pigmented lesions: Actinic keratoses and intraepithelial carcinoma / Bowen's disease (akiec), basal cell carcinoma (bcc), benign keratosis-like lesions (solar lentigines / seborrheic keratoses and lichen-planus like keratoses, bkl), dermatofibroma (df), melanoma (mel), melanocytic nevi (nv) and vascular lesions (angiomas, angiokeratomas, pyogenic granulomas and hemorrhage, vasc). The diversity in image sources ensures a wide variation in lesion types, skin tones, and image quality.
